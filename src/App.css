@@ -74,9 +74,22 @@
 ul {
   padding-left: 30px;
   padding: 3px;
-  background-color: green;
+  text-align: center;
+  list-style-type: none;
+
  }
- li{
+  li{
+     margin-bottom: 2px solid white;
+     margin-bottom: 2px;
+
+  }
+ li button{
+     background-color: green;
+     min-width: 200px;
+     border-radius: 5px;
+     border: none;
+     color: white;
+     padding: 5px 10px;
 
  }
  .game-info {
@@ -91,4 +104,20 @@ ul {
   color:orange;
   font-weight: bolder;
   padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 7px 10px;
+ }
+
+
+ .play-again{
+   padding: 8px 10px;
+   align-items: center;
+   background-color: rgb(23, 103, 179);
+   text-transform: uppercase;
+   color: white;
+   font-weight: 700;
+   border-radius: 5px;
+   border: 2px solid white;
+   width: 200px;
  }
